@@ -1,0 +1,19 @@
+.titlebar {
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  color: #006eff;
+}
+
+.sections {
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
