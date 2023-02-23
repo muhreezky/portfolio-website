@@ -9,11 +9,41 @@
 
 .sections {
   margin: 10px;
+  padding: 25px;
 }
 
 .container {
   text-align: center;
   padding: 20px;
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.sections > *:not(legend) {
+  text-align: left;
+}
+
+.linkbuttons {
+  padding: 4%;
+  border-radius: 10%;
+  border: 1px solid #000000;
+  margin: 3%;
+  color: #ffffff;
+}
+
+.linkbuttons#wa {
+  background-color: #3de427;
+}
+
+.linkbuttons#linkin {
+  background-color: #074ca5;
+}
+.linkbuttons#ig {
+  background-color: #e01a87;
+}
+
+.description.contacts {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
 }
